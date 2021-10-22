@@ -13,7 +13,7 @@ class Consumer extends Model
         'name',
         'bhirt',
         'address',
-        'phones_id',
+        'identity',
         'npwp',
         'nationality',
         'payment_source',

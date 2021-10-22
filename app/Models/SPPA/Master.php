@@ -12,16 +12,12 @@ class Master extends Model
 
     protected $fillable = [
         'products_id',
-        'customers_id',
-
+        'customers_id',        
     ];
     protected $hidden = [
         'id',
-        'created_at',
-        'updated_at',
-        'deleted_at',
-
     ];
+
 
     public function tanaman()
     {

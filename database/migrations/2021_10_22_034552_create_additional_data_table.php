@@ -20,6 +20,7 @@ class CreateAdditionalDataTable extends Migration
             $table->string('field_three');
             $table->string('field_four');
             $table->string('customers_id');
+            $table->softDeletes();
             $table->timestamps();
         });
     }

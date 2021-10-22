@@ -22,6 +22,7 @@ class CreateCustomersTable extends Migration
             $table->date('s_date');
             $table->date('e_date');
             $table->string('customers_id');
+            $table->softDeletes();
             $table->timestamps();
         });
     }

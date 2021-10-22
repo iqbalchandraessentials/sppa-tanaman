@@ -14,10 +14,6 @@ class Product extends Model
         'name',
         'code_product',
         'description',
-
-    ];
-    protected $hidden = [
-        'id',
     ];
 
     public function tanaman()

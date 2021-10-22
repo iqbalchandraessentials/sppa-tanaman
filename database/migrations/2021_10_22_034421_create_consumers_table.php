@@ -19,7 +19,6 @@ class CreateConsumersTable extends Migration
             $table->string('bhirt');
             $table->string('identity')->unique();
             $table->string('address');
-            $table->bigInteger('phones_id');
             $table->string('npwp')->unique();
             $table->string('nationality')->nullable();
             $table->string('payment_source');

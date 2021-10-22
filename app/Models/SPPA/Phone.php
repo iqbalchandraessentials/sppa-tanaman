@@ -9,11 +9,11 @@ class Phone extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'home	',
+        'home',
         'office',
         'hp',
         'fax',
-        'customers_id	',
+        'customers_id',
     ];
     
     protected $hidden = [
