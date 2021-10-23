@@ -1,3 +1,18 @@
+Installation
+Laravel has a set of requirements in order to ron smoothly in specific environment. Please see requirements section in Laravel documentation.
+Metronic similarly uses additional plugins and frameworks, so ensure You have Composer and Node installed on Your machine.
+Assuming your machine meets all requirements - let's process to installation of Metronic Laravel integration (skeleton).
+
+Open in cmd or terminal app and navigate to this folder
+Run following commands
+
+composer install
+cp .env.example .env
+php artisan key:generate
+npm install
+npm run dev
+php artisan serve
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
